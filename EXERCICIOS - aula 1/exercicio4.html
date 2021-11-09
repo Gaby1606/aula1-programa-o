@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            /* Faça um Programa que leia três números inteiros, 
+            em seguida mostre o maior e o menor deles.*/
+           a = prompt('Primeiro número: ')
+           b = prompt('Segundo número: ')
+           c = prompt('Terceiro número: ')
+           
+           menor = a 
+           if(a<b && a<c){
+               menor = a
+           }if(b<c && b<a){
+               menor = b 
+           }if(c<a && c<b){
+               menor = c
+           }
+           console.log('O menor valor informado foi ',menor)
+
+           maior = a
+           if(a>b && a>c){
+               maior = a
+           }if(b>a && b>c){
+               maior = b
+           }if(c>a && c>b){
+               maior = c
+           }
+           console.log('O maior valor informado foi ',maior)
+        </script>
+        <body></body>
+    </head>
+</html>
